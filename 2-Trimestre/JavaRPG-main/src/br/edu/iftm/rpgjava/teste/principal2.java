@@ -21,17 +21,25 @@ public class principal2 {
         System.out.println("Crie o guerreiro");
         System.out.print("Digite o seu nome: ");
         String nomeg = ent.next();
-        Guerreiro g = new Guerreiro(nomeg,80 + maG.getDano(), 50, 30 + arG.modificadorAgilidade(), 3, 0, 25 + arG.getDefesa(), 100, 70, 10, 20);
+        Guerreiro g = new Guerreiro(nomeg,80, 50, 30, 3, 0, 25, 100, 70, 10, 20);
+        g.setArmadura(arG);
+        g.setArma(maG);
 
         System.out.println("Crie o arqueiro");
         System.out.print("Digite o seu nome: ");
         String nomea = ent.next();
-        Arqueiro a = new Arqueiro(nomea,50  + maA.getDano(), 70,60 + arA.modificadorAgilidade(), 20, 0, 15  + arA.getDefesa(), 100, 80, 20, 30);
+        Arqueiro a = new Arqueiro(nomea,50, 70,60, 20, 0, 15, 100, 80, 20, 30);
+        g.setArmadura(arA);
+        g.setArma(maA);
+
 
         System.out.println("Crie o mago");
         System.out.print("Digite o seu nome: ");
         String nomem = ent.next();
-        Mago m = new Mago(nomem,20, 30,90 + arM.modificadorAgilidade(), 90, 0, 5 + arM.getDefesa(), 100, 50, 10, 90  + maM.getDano());
+        Mago m = new Mago(nomem,20, 30,90, 90, 0, 5, 100, 50, 10, 90);
+        g.setArmadura(arM);
+        g.setArma(maM);
+
 
         //Combate
         Random dado = new Random();

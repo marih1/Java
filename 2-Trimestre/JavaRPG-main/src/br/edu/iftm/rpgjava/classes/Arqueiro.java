@@ -174,4 +174,20 @@ public class Arqueiro {
     public void setMana(int mana) {
         this.mana = mana;
     }
+
+    public Armadura getArmadura() {
+        return armadura;
+    }
+
+    public void setArmadura(Armadura armadura) {
+        this.armadura = armadura;
+    }
+
+    public Arma getArma() {
+        return arma;
+    }
+
+    public void setArma(Arma arma) {
+        this.arma = arma;
+    }
 }
