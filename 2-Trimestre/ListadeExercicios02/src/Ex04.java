@@ -9,12 +9,15 @@ public class Ex04 {
         System.out.print("Digite um número: ");
         int num = ent.nextInt();
 
-        int x = 0;
+        int countNum = 0;
 
-        for (int i=1; x <= 20; i++) {
-            if (num % i == 0) {
-                x++;
-                System.out.print(i + ", ");
+        for (int i = 1; countNum <= 20; i++) {
+            if (num % i == 0 && i > 0) {
+                System.out.printf(i + " ");
+                countNum++;
+                if (i == num) {
+                    countNum = 21;
+                }
             }
         }
     }

@@ -6,13 +6,13 @@ public class Ex03 {
 
         Scanner ent = new Scanner(System.in);
 
-        System.out.print("Digite um número qualquer entre 0 e 100: ");
-        float num = ent.nextFloat();
+        System.out.print("Digite um número qualquer: ");
+        int num = ent.nextInt();
 
         int f = 1;
 
-        for (int i = 1; i <= num; i++) {
-            f = f * i;
+        for (int i = 1; i < num; i++) {
+            f = f * (i+1);
         }
 
         System.out.println(f);

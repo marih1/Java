@@ -12,7 +12,7 @@ public class Ex02 {
         if (num >= 0 && num <= 100) {
             if (num % 2 == 0) {
                 System.out.println("Número par");
-            } else if (num % 2 != 0) {
+            } else {
                 System.out.println("Número ímpar");
             }
         }

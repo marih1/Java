@@ -15,8 +15,9 @@ public class Ex01 {
             } else {
                 System.out.println("Você digitou um número fora da faixa");
             }
+
         } else {
-            System.out.println("Você digitou um número fora da faixa");
+            System.out.println("Número fora da faixa entre 0 e 500");
         }
 
     }

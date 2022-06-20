@@ -2,14 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="284bdb2c-4d2c-4978-80f4-8e61697153a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Lista_01/ex01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lista_01/ex02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lista_01/ex03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lista_01/ex04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lista_01/ex05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lista_01/ex06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lista_01/ex07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lista_01/readme.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex05/Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex05/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex08/Contador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex08/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex09/Lampada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex09/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex10/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex10/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex11/Elevador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex11/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEmpresaX/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEmpresaX/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEmpresaX/src/br/edu/javaempresax/testes/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEmpresaX/src/br/edu/javaempresax/testes/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEmpresaX/src/br/edu/javaempresax/testes/TesteVetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEmpresaX/src/br/edu/javaempresax/testes/TesteVetor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListadeExercicios02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ListadeExercicios02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListadeExercicios02/out/production/ListadeExercicios02/Ex01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ListadeExercicios02/out/production/ListadeExercicios02/Ex01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListadeExercicios02/out/production/ListadeExercicios02/Ex03.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ListadeExercicios02/out/production/ListadeExercicios02/Ex03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListadeExercicios02/out/production/ListadeExercicios02/Ex04.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ListadeExercicios02/out/production/ListadeExercicios02/Ex04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListadeExercicios02/out/production/ListadeExercicios02/Ex05.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ListadeExercicios02/out/production/ListadeExercicios02/Ex05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListadeExercicios02/src/Ex05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,12 +51,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/kanno/Documents/Estudos/Java/2-Trimestre/ListadeExercicios02"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.principal2">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.edu.iftm.rpgjava.teste.Principal" />
