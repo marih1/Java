@@ -6,24 +6,24 @@ public class Ex07 {
 
         Scanner ent = new Scanner(System.in);
 
-        int count = 0;
+        System.out.print("Digite o tamanho da lista: ");
+        int tamanho = ent.nextInt();
 
-        int soma = 0;
-        int numero = 0;
+        int[] lista = new int[tamanho];
 
-        for (int i=0; i < 5; i++) {
-            System.out.print("Digite um número: ");
-            numero = ent.nextInt();
+        int s = 0;
 
-            if (numero > 0 && numero % 3 == 0) {
-                soma = soma + numero;
-                count++;
-
-            } else {
-                System.out.println("\nNúmero não divisível por 3");
+        for (int i = 0; i < lista.length;) {
+            System.out.println("Digite um número positivo divisível por 3: ");
+            int num = ent.nextInt();
+            if (num % 3 == 0 && num >= 0) {
+                lista[i] = num;
+                s += lista[i];
+                i++;
             }
         }
-        int media = soma / count;
-        System.out.printf("\nA média dos números é %d", media);
+
+        int resultado = s / lista.length;
+        System.out.println(resultado);
     }
 }
